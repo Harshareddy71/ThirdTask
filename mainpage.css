@@ -245,11 +245,12 @@ body{
   }
   .link {
     font-size: 13px;
-    text-align: right;
     color: #606579;
-    padding: 0px 17px;
+    padding: 0px 10px 0px 0px;
     font-family: Segoe UI;
-  }
+    float: right;
+    text-decoration: none;
+}
   .clearence p {
     padding: 0px 165px 0px 10px;
     font-size: 10px;
@@ -266,7 +267,7 @@ body{
     justify-content: space-between;
     display: flex;
   }
-  .footer-content ul {
+  .footerdata ul {
     list-style-type: none;
     display: flex;
     margin-top: 3px;
@@ -274,16 +275,16 @@ body{
     padding: 0px;
     padding-top: 5px;
   }
-  .footer-content li a {
+  .footerdata li a {
     color: #8D8D8B;
     font-size: 12px;
   }
-  .footer-content ul li:not(:last-child)::after{
+  .footerdata ul li:not(:last-child)::after{
     content: "|";
     color: #6F6E6C;
     padding: 5px;
   }
-  .footer-content .contact {
+  .footerdata .contact {
     color: #8D8D8B;
     padding-top: 8px;
     padding-left: 0px;
@@ -292,10 +293,10 @@ body{
     font-size: 12px;
     letter-spacing: 0.2px;
   }
-  .footer-content .contact a {
+  .footerdata .contact a {
     color: #8D8D8B;
   }
-  .footer-content .copyrights {
+  .footerdata .copyrights {
     color: #8D8D8B;
     padding-top: 5px;
     padding-left: 0px;
@@ -310,7 +311,7 @@ body{
   .mail {
     margin-top: 8px;
   }
-  .signup .mail .username {
+  .signup .mail .name {
     font-size: 10px;
     width: 160px;
   }
@@ -371,6 +372,7 @@ body{
 #dining{
     padding-left: 8px;
 }
-b{
+b {
     color: #2D2C4F;
+    font-weight: 100;
 }
