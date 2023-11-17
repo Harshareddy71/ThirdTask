@@ -21,7 +21,7 @@ body{
     list-style-type: none;
       display: flex;
       color: #AFAFAF;
-      align-items: center;
+      align-items: baseline;
       font-size: 12px;
       margin-top: 32px;
   }
@@ -86,8 +86,9 @@ body{
   .subnavbar ul li .search .Button button {
     border-radius: 5px;
     border: thin solid #aaaaaa;
-    margin-left: 5px;
-  }
+    margin-left: 10px;
+    font-size: 12px;
+}
   .thirdnavbar {
     background-color: #FFFFFF;
     border-bottom: #aaaaaa 1px solid;
@@ -274,7 +275,8 @@ body{
   .footerdata li a {
     color: #8D8D8B;
     font-size: 12px;
-  }
+    font-family: Segoe UI;
+}
   .footerdata ul li:not(:last-child)::after{
     content: "|";
     color: #6F6E6C;
@@ -371,4 +373,8 @@ body{
 b {
     color: #2D2C4F;
     font-weight: 100;
+}
+.icons{
+  position: relative;
+    top: 1px;
 }
